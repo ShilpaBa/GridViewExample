@@ -6,15 +6,13 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-
 import com.example.paypalimage.interfaces.ICurrentAppData;
 import roboguice.RoboGuice;
-
 import javax.inject.Inject;
 
 public class ImageGridViewAdapter extends BaseAdapter {
 
-    @Inject
+    //@Inject
     ICurrentAppData currentAppData;
     private Activity activity;
 
